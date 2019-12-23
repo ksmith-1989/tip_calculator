@@ -8,5 +8,29 @@
   </head>
   <body>
     <h1>Tip Calculator</h1>
+    <div>
+      <p>How much was your bill?</p>
+      <label for="bill amount">$</label>
+      <input type="text" placeholder="Bill Amount" />
+    </div>
+    <div>
+      <label for="service-type">How was your Serivce?</label>
+    </div>
+    <div>
+      <select name="level" id="service-type">
+        <option value="Choose">--Choose an option--</option>
+        <option value="30%">30% Outstanding</option>
+        <option value="20%">20% Good</option>
+        <option value="10%">10% Bad</option>
+        <option value="5%">5% Terrible</option>
+      </select>
+    </div>
+    <div>
+      <p>How many people are sharing the bill?</p>
+      <input type="text" placeholder="Number of People" />
+      <label for="number of people">people</label>
+    </div>
+
+    <button>Calculate</button>
   </body>
 </html>
